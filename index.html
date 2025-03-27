@@ -7,10 +7,10 @@
     <title>Gomes Consultoria Acadêmica</title>
     <style>
         :root {
-            --primary-color: #00bfa6;
-            --dark-bg: #121212;
-            --dark-card: #1e1e1e;
-            --text-light: #f1f1f1;
+            --primary-color: #015958;
+            --accent-color: #00bfa6;
+            --background: #f7f9fc;
+            --text-color: #333;
         }
         html {
             scroll-behavior: smooth;
@@ -19,27 +19,32 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background: var(--dark-bg);
-            color: var(--text-light);
+            background: var(--background);
+            color: var(--text-color);
             line-height: 1.6;
         }
         header {
-            background-color: var(--primary-color);
-            padding: 30px 20px 20px;
+            background-color: white;
+            padding: 40px 20px 20px;
             text-align: center;
-            color: #fff;
+            border-bottom: 1px solid #ddd;
         }
         header img {
-            max-width: 140px;
-            margin-bottom: 5px;
+            max-width: 160px;
+            margin-bottom: 10px;
+        }
+        .slogan {
+            font-size: 1.1em;
+            font-weight: 500;
+            color: var(--primary-color);
         }
         section {
-            background-color: var(--dark-card);
+            background-color: white;
             margin: 30px auto;
-            padding: 30px 20px;
+            padding: 30px 25px;
             max-width: 900px;
             border-radius: 10px;
-            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
             text-align: justify;
         }
         h2 {
@@ -54,8 +59,8 @@
             margin-bottom: 8px;
         }
         footer {
-            background-color: #1a1a1a;
-            color: #aaa;
+            background-color: #f0f0f0;
+            color: #666;
             text-align: center;
             padding: 20px;
             font-size: 0.9em;
@@ -65,13 +70,7 @@
             color: var(--primary-color);
         }
         a {
-            color: var(--primary-color);
-        }
-        .slogan {
-            margin: 0;
-            font-size: 1.1em;
-            font-weight: 500;
-            color: #e0f7f4;
+            color: var(--accent-color);
         }
     </style>
 </head>
